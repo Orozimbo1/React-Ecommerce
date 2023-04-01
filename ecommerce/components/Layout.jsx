@@ -1,8 +1,25 @@
 import React from 'react'
+import Head from 'next/head'
 
-const Layout = () => {
+import Navbar from './Navbar'
+import Footer from './Footer'
+
+const Layout = ({ children }) => {
   return (
-    <div>Layout</div>
+    <html lang='pt-br' className='layout'>
+        <Head>
+          <title>React Ecommerce</title>
+        </Head>
+        <header>
+          <Navbar />
+        </header>
+        <main className='main-container'>
+          {children}
+        </main>
+        <footer>
+          <Footer />
+        </footer>
+    </html>
   )
 }
 
