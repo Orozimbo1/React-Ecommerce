@@ -6,7 +6,7 @@ import Footer from './Footer'
 
 const Layout = ({ children }) => {
   return (
-    <html lang='pt-br' className='layout'>
+    <div className='layout'>
         <Head>
           <title>React Ecommerce</title>
         </Head>
@@ -19,7 +19,7 @@ const Layout = ({ children }) => {
         <footer>
           <Footer />
         </footer>
-    </html>
+    </div>
   )
 }
 
