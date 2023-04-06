@@ -3,9 +3,9 @@ import React from 'react'
 import Link from 'next/link'
 
 import { urlFor } from '@/lib/client'
-import product from '@/sanity_ecommerce/schemas/product'
 
 const HeroBanner = ({ heroBanner }) => {
+  console.log(heroBanner)
   return (
     <div className='hero-banner-container'>
       <div>
