@@ -10,7 +10,7 @@ body, * {
 ::-webkit-scrollbar {
   width: 0px;
 }
-
+.item-desc
 a {
   color: inherit;
   text-decoration: none;
@@ -683,7 +683,7 @@ margin-top: 160px;
     height: 350px;
   }
   .cart-container{
-    width: 415px;
+    width: 95%;
   padding: 4px;
   }
   .cart-heading{
