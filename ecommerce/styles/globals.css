@@ -10,7 +10,6 @@ body, * {
 ::-webkit-scrollbar {
   width: 0px;
 }
-.item-desc
 a {
   color: inherit;
   text-decoration: none;
